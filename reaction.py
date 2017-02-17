@@ -16,8 +16,8 @@ def pressed(button):
     else:
         print(right_name + ' won the game')
 
-right_button.when_pressed = pressed
-left_button.when_pressed = pressed
-
 left_name = input('left player name is ')
 right_name = input('right player name is ')
+
+right_button.when_pressed = pressed
+left_button.when_pressed = pressed
