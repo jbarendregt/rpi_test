@@ -2,5 +2,9 @@ from gpiozero import Button
 
 button = Button(14)
 
-button.wait_for_press()
-print("Button was pressed")
+def say_hello():
+    print("Hello!")
+
+button.when_pressed = say_hello
+
+pause()
