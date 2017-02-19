@@ -1,5 +1,5 @@
-from gpiozero import Button, LED
-from signal import pause
+from gpiozero import DigitalOutputDevice
+from time import sleep
 
 switch = DigitalOutputDevice(4)
 
