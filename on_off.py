@@ -7,4 +7,4 @@ while True:
     switch.on()
     sleep(1)
     switch.off()
-    sleep(1)
+    sleep(5)
